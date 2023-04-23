@@ -1,0 +1,121 @@
+body {
+  background-color: black;
+  color: rgb(219, 9, 9);
+  margin: 0;
+}
+#header {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+nav {
+  position: fixed;
+  float: right;
+  top: 0px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  gap: 120px;
+  list-style: none;
+  justify-content: flex-end;
+  padding-right: 22rem;
+  padding-top: 2rem;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: red;
+}
+#header-img {
+  width: 15%;
+  margin-left: -9%;
+  position: fixed;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+label,
+#email,
+#submit {
+  font-size: 140%;
+  padding: 5px;
+}
+
+label {
+  font-family: verdana;
+  font-size: 30px;
+  padding-left: 2%;
+}
+#div-section-3 {
+  text-align: center;
+}
+
+i {
+  color: rgb(155, 148, 148);
+  font-size: 4rem;
+  margin-top: 1.5rem;
+}
+
+.section_3_div {
+  display: flex;
+  gap: 60px;
+  width: 50%;
+  margin: 0 auto;
+}
+section {
+  padding-bottom: 5rem;
+}
+
+#Dressed {
+  text-align: center;
+}
+#Prising {
+  display: flex;
+  gap: 50px;
+  /* text-align: center; */
+  justify-content: center;
+}
+.img_1,
+.img_2,
+.img_3 {
+  width: 400px;
+  height: 400px;
+  border: 3px solid rgb(226, 50, 50);
+}
+.img_1_div,
+.img_2_div,
+.img_3_div {
+  text-align: center;
+  font-size: 2rem;
+  border: 3px solid red;
+  padding-bottom: 2rem;
+}
+.img_2_div input,
+.img_1_div input,
+.img_3_div input {
+  color: rgb(175, 5, 5);
+  border-radius: 30%;
+  background-color: rgb(192, 179, 179);
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    display: block;
+  }
+}
+#background {
+  width: 1000px;
+  background: yellow;
+  border: 10px solid pink;
+}
